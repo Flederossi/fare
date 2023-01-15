@@ -33,4 +33,4 @@ gcc src/fare.c -o bin/fare
 To use fare everywhere you can now add the executable to your path.
 
 ## Compile fare using fare
-If you already have fare installed on your system you can run `fare`in the root of fare project to compile it that way.
+If you already have fare installed on your system you can run `fare` in the root of fare project to compile it that way.
