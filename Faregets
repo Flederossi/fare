@@ -1,0 +1,3 @@
+build:
+  mkdir bin/
+  gcc src/fare.c -o bin/fare
