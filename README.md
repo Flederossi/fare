@@ -41,7 +41,7 @@ A minimal make like build tool in 60 lines of C to assist you faster building an
 > With that a dependency of the target build was created for the target run.
 
 ### Run Targets
-> Run the first target with:
+> Run the first target found in 'Faregets' with:
 > ```
 > fare
 > ```
