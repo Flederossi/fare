@@ -11,7 +11,7 @@ To use fare everywhere you can now add the executable to your path.
 
 ## Usage
 ### Specify Targets
-Create the 'Faregets' file in your projects root which can look like this:
+Create the 'Faregets' file in your projects root which has this structure:
 > Faregets
 ```
 !build
