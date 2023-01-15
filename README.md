@@ -12,6 +12,7 @@ A minimal make like build tool to assist you faster building and testing your pr
 ## Usage
 ### Specify Targets
 > You can specify targets with a '!' in front of them. The commands that will be executed when the target is called you can simply write under your target definition.
+> 
 > Create a 'Faregets' file in your projects root which has this structure:
 > ```
 > ![1. target name]
