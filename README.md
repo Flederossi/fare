@@ -51,4 +51,4 @@ A minimal make like build tool to assist you faster building and testing your pr
 > ```
 
 ## Compile fare using fare
-> If you already have fare installed on your system you can run `fare` in the root of fare project to compile it that way.
+> If you already have fare installed on your system and you want to recompile it (if there is any reason for that), you can run `fare build` or simply `fare` in the root of this repository to compile fare with fare.
