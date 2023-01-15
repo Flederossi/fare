@@ -24,6 +24,7 @@ Create a 'Faregets' file in your projects root which has this structure:
 [...]
 ```
 You can find an example 'Faregets' file in the root of this project.
+In your 'Faregets' you can specify as many targets as you want but it is important that there is no left spaces behind your target name definitions.
 
 **Note: To create dependencies from other targets you can run this dependency as seperate command in a target like this:**
 > Faregets
@@ -46,7 +47,6 @@ Or run a specific target with:
 ```
 fare [target name]
 ```
-In your 'Faregets' you can specify as many targets as you want but it is important that there is no left spaces behind your target name definitions.
 
 ## Compile fare using fare
 If you already have fare installed on your system you can run `fare` in the root of fare project to compile it that way.
