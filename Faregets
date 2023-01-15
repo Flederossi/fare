@@ -1,0 +1,6 @@
+!fare
+gcc src/main.c -o bin/fare -I src/include/
+
+!install
+fare
+mv ./bin/fare /Users/oskar/Documents/dev/tools/bin/
