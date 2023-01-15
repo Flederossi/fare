@@ -22,6 +22,7 @@ Create the 'Faregets' file in your projects root which can look like this:
 fare build
 [Command for running project]
 ```
+You can find an example 'Faregets' file in the root of this project.
 Run the first target with:
 ```
 fare
