@@ -12,7 +12,6 @@ A minimal make like build tool to assist you faster building and testing your pr
 ## Usage
 ### Specify Targets
 > Create a 'Faregets' file in your projects root which has this structure:
-> Faregets
 > ```
 > ![1. target name]
 > [1. command under 1. target]
@@ -29,7 +28,6 @@ A minimal make like build tool to assist you faster building and testing your pr
 
 ### Create Dependencies
 > To create dependencies from other targets you can run this dependency as seperate command in a target like this:
-> Faregets
 > ```
 > !build
 > gcc main.c -o out
