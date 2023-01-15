@@ -7,7 +7,7 @@ To compile fare after cloning this repository you can run:
 mkdir bin/
 gcc src/fare.c -o bin/fare
 ```
-To use fare everywhere you can now add the executable to your path.
+To use fare everywhere you can now add the executable under bin/ to your path.
 
 ## Usage
 ### Specify Targets
