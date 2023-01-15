@@ -14,16 +14,28 @@ To use fare everywhere you can now add the executable to your path.
 Create the 'Faregets' file in your projects root which has this structure:
 > Faregets
 ```
-!build
-[1. Command for building project]
-[2. Command for building project]
+![1. target name]
+[1. command under 1. target]
+[2. command under 1. target]
 [...]
+
+![2. target name]
+[1. command under 2. target]
+[...]
+```
+You can find an example 'Faregets' file in the root of this project.
+
+**Note: To create dependencies from other targets you can run this dependency as seperate command. Like this:**
+> Faregets
+```
+!build
+gcc main.c -o out
 
 !run
 fare build
-[Command for running project]
+./out
 ```
-You can find an example 'Faregets' file in the root of this project.
+**With that a dependency of the target build was created for the target run.**
 
 ### Run Targets
 Run the first target with:
