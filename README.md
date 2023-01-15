@@ -1,6 +1,8 @@
 # fare
 A minimal make like build tool in 60 lines of C to assist you faster building and testing your projects. The targets are written in the 'Faregets' file which should be in the root of your project. You can use fare to run as many terminal commands as you need under a specific target.
 
+![Alt Text](https://github.com/Flederossi/chip-x/blob/main/img/logo.png)
+
 ## Installation
 > To compile fare after cloning this repository you can run:
 > ```
