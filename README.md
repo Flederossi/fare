@@ -18,7 +18,7 @@ A minimal make like build tool to assist you faster building and testing your pr
 > [1. command under 1. target]
 > [2. command under 1. target]
 > [...]
-
+> 
 > ![2. target name]
 > [1. command under 2. target]
 > [...]
@@ -33,7 +33,7 @@ A minimal make like build tool to assist you faster building and testing your pr
 > ```
 > !build
 > gcc main.c -o out
-
+> 
 > !run
 > fare build
 > ./out
