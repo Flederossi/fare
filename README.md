@@ -24,9 +24,11 @@ Create a 'Faregets' file in your projects root which has this structure:
 [...]
 ```
 You can find an example 'Faregets' file in the root of this project.
-In your 'Faregets' you can specify as many targets as you want but it is important that there is no left spaces behind your target name definitions.
 
-**Note: To create dependencies from other targets you can run this dependency as seperate command in a target like this:**
+**Note: In your 'Faregets' you can specify as many targets as you want but it is important that there is no left spaces behind your target name definitions.**
+
+### Create Dependencies
+To create dependencies from other targets you can run this dependency as seperate command in a target like this:
 > Faregets
 ```
 !build
@@ -36,7 +38,7 @@ gcc main.c -o out
 fare build
 ./out
 ```
-**With that a dependency of the target build was created for the target run.**
+With that a dependency of the target build was created for the target run.
 
 ### Run Targets
 Run the first target with:
