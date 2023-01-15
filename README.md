@@ -25,7 +25,7 @@ Create a 'Faregets' file in your projects root which has this structure:
 ```
 You can find an example 'Faregets' file in the root of this project.
 
-**Note: To create dependencies from other targets you can run this dependency as seperate command. Like this:**
+**Note: To create dependencies from other targets you can run this dependency as seperate command in a target like this:**
 > Faregets
 ```
 !build
